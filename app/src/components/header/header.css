@@ -1,0 +1,21 @@
+.header-body{
+    height: 100px;
+    margin-top: 20px;
+
+}
+
+.header-main-logo-container{
+    display: flex;
+    color: #38FF9C;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.header-main-logo{
+    height: 60px;
+}
+.header-app-explanation{
+    width: 50vw;
+    margin: auto;
+
+}

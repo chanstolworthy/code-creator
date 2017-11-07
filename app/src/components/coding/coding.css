@@ -1,0 +1,59 @@
+
+  .preloader-1 {
+    margin: 100px auto 0;
+    width: 200px;
+    height: 12px;
+  }
+  
+  .coding-generating-code-title{
+    color: #38FF9C;
+
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'helvetica', 'Arial', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  
+  .preloader-1 .line {
+    width: 1px;
+    height: 50px;
+    background: #38FF9C;
+    margin: 0 3px;
+    display: inline-block;
+    animation: opacity-1 1000ms infinite ease-in-out;
+  }
+  
+
+  
+  .preloader-1 .line-1, .preloader-2 .line-1 { animation-delay: 1600ms; }
+  .preloader-1 .line-2, .preloader-2 .line-2 { animation-delay: 1400ms; }
+  .preloader-1 .line-3, .preloader-2 .line-3 { animation-delay: 1200ms; }
+  .preloader-1 .line-4, .preloader-2 .line-4 { animation-delay: 1000ms; }
+  .preloader-1 .line-6, .preloader-2 .line-6 { animation-delay: 800ms; }
+  .preloader-1 .line-7, .preloader-2 .line-7 { animation-delay: 600ms; }
+  .preloader-1 .line-8, .preloader-2 .line-8 { animation-delay: 400ms; }
+  .preloader-1 .line-9, .preloader-2 .line-9 { animation-delay: 200ms; }
+  .preloader-1 .line-10, .preloader-2 .line-9 { animation-delay: 400ms; }
+  .preloader-1 .line-11, .preloader-2 .line-9 { animation-delay: 600ms; }
+  .preloader-1 .line-12, .preloader-2 .line-9 { animation-delay: 800ms; }
+  .preloader-1 .line-13, .preloader-2 .line-9 { animation-delay: 1000ms; }
+  .preloader-1 .line-14, .preloader-2 .line-9 { animation-delay: 1200ms; }
+  .preloader-1 .line-15, .preloader-2 .line-9 { animation-delay: 1400ms; }
+  .preloader-1 .line-16, .preloader-2 .line-9 { animation-delay: 1600ms; }  
+
+
+  
+  @keyframes opacity-1 { 
+    0% { 
+      opacity: 1;
+    }
+    50% { 
+      opacity: 0;
+    }
+    100% { 
+      opacity: 1;
+    }  
+  }
+  
